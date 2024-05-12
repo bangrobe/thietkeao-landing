@@ -95,7 +95,7 @@
     text-align: center;
   }
 
-  footer {
+  .footer-top {
     background-color: #111;
     color: #fff;
     padding: 50px 0;
@@ -118,7 +118,9 @@
   .footer-logo strong {
     font-size: 2rem;
   }
-
+  .footer-bottom {
+    background-color: #1e1e1e;
+  }
   #scroll-to-top {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -127,7 +129,7 @@
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
+    background-color: #1e1e1e; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 8px; /* Some padding */
