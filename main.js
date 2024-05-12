@@ -46,7 +46,7 @@ const intializeImages = async () => {
 		`${API_URL}/search/photos?query=t-shirt&per_page=10&client_id=${key}`
 	)
     let images = await response.json();
-    console.log(images)
+
 	images = images.results.map(image => image.urls.regular)
     
 	addImagesInDom(images)
