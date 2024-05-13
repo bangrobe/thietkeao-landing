@@ -5,6 +5,13 @@
 }
 :root {
     --big-font-size: 1.2rem;
+    --font-family: 'Plus Jakarta Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,a,li, div {
+  font-family: var(--font-family);
+}
+body {
+    font-family: var(--font-family);
 }
 .title-heading {
     font-weight: bold;
@@ -57,12 +64,18 @@
 
   .chinh-sach ul {
     list-style: none;
+    padding: 0;
   }
   .chinh-sach p, .chinh-sach li {
     font-size: var(--big-font-size);
   }
+  .chinh-sach li {
+    margin-bottom: 8px;
+  }
   .chinh-sach svg {
     color: green;
+    margin-bottom: 2px;
+    margin-right: 4px;
   }
 
   .ho-tro-group {
@@ -156,5 +169,8 @@
     .ho-tro-group {
         padding: 20px 0;
         text-align: center;
+    }
+    .chinh-sach p, .chinh-sach li, .dong-phuc-info p {
+        font-size: 1rem;
     }
   }
